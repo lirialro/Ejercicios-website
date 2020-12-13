@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <script src="./main.js"></script>
+        <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Bienvenido</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                    <div class="col-6 bg-dark">
+                        <img src="logo.jpg" style="width: 100%">
+                    </div>
+                    <div class="col-6 bg-dark">
+                        <button type= "button" onclick="mostrarPrincipal()" class= "btn btn-secondary btn-lg btn-block">Principal</button>
+                        <button type= "button" onclick="mostrarCarrito()" class= "btn btn-secondary btn-lg btn-block">Cesta de compras</button>
+                        <button type= "button" class= "btn btn-secondary btn-lg btn-block">Tiendas</button>
+                        <button type= "button" class= "btn btn-secondary btn-lg btn-block">Comparte tu look</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="seleccionar">
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img class="card-img-top" src="pantalon1.jpg" alt="Pantalón">
+                        <div class="card-body">
+                            <h4 class="card-title">Pantalón Carrot rayas <br>25,99€</h4>
+                            <button type="button" onclick="agregaProducto('Pantalón Carrot rayas', 25.99, 'pantalon1.jpg')" value="" id="pant" class="btn btn-dark">Agregar a la cesta</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img class="card-img-top" src="pantalon2.jpg" alt="Pantalón">
+                        <div class="card-body">
+                            <h4 class="card-title">Pantalón Jogger efecto piel <br>19,99€</h4>
+                            <button type="button" onclick="agregaProducto('Pantalón Jogger efecto piel', 19.99, 'pantalon2.jpg')" value="" id="pant2" class="btn btn-dark">Agregar a la cesta</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img class="card-img-top" src="pantalon3.jpg" alt="Pantalón">
+                        <div class="card-body">
+                            <h4 class="card-title">Pantalón Kick Flare<br>19,99€</h4>
+                            <button type="button" onclick="agregaProducto('Pantalón Kick Flare', 19.99, 'pantalon3.jpg')" value="" id="pant3" class="btn btn-dark">Agregar a la cesta</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img class="card-img-top" src="pantalon4.jpg" alt="Pantalón">
+                        <div class="card-body">
+                            <h4 class="card-title">Leggings cremallera bajo <br>9,59€</h4>
+                            <button type="button" onclick="agregaProducto('Leggings cremallera bajo', 9.59, 'pantalon4.jpg')"  value="" id="pant4" class="btn btn-dark">Agregar a la cesta</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 5%;">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img class="card-img-top" src="pantalon5.jpg" alt="Pantalón">
+                        <div class="card-body">
+                            <h4 class="card-title">Pantalón Flare<br>13,79€</h4>
+                            <button type="button" onclick="agregaProducto('Pantalón Flare', 13.79, 'pantalon5.jpg')" value="" id="pant5" class="btn btn-dark">Agregar a la cesta</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img class="card-img-top" src="pantalon6.jpg" alt="Pantalón">
+                        <div class="card-body">
+                            <h4 class="card-title">Pantalón Push up rotos <br>19,99€</h4>
+                            <button type="button" onclick="agregaProducto('Pantalón Push up rotos', 19.99, 'pantalon6.jpg')" value="" id="pant6" class="btn btn-dark">Agregar a la cesta</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img class="card-img-top" src="pantalon7.jpg" alt="Pantalón">
+                        <div class="card-body">
+                            <h4 class="card-title">Pantalón Super High Waist <br>19,99€</h4>
+                            <button type="button" onclick="agregaProducto('Pantalón Super High Waist', 19.99, 'pantalon7.jpg')" value="" id="pant7" class="btn btn-dark">Agregar a la cesta</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img class="card-img-top" src="pantalon8.jpg" alt="Pantalón">
+                        <div class="card-body">
+                            <h4 class="card-title">Pantalón Skinny Cargo <br>11,99€</h4>
+                            <button type="button" onclick="agregaProducto('Pantalón Skinny Cargo', 11.59, 'pantalon8.jpg')" value="" id="pant8" class="btn btn-dark">Agregar a la cesta</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div id="totalCompra" style="display: none; margin-top: 2%;">
+
+
+
+    </div>
+ 
+      
+        
+    </body>
+</html>

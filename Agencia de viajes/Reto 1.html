@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <script src="./main.js"></script>
+        <meta charset= "UTF-8">
+        <title>SouthTravel</title>
+        <link rel="stylesheet" href="Reto1.css">
+    </head>
+    
+    <body background="fondo.jpg">
+        <header>
+            <h1 style="font-family: fantasy">South Travel </h1>
+            <h2><em>Viaje a la naturaleza</em></h2>
+        <nav>
+            <ul>
+                <li><a href="">Quiénes somos</a></li>
+                <li><a href="">Promociones</a></li>
+                <li><a href="">Contáctanos</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <h1 id="titulo">¿Adónde quiéres ir?</h1>
+
+        <section>
+            <img src="losroques.jpg" id = "margenderecho">
+            <h3>Los Roques</h3>
+        </section>
+
+        <section>
+            <img src="saltoangel.jpg" id = "margenderecho">
+            <h3>Canaima/Salto Ángel</h3>
+        </section>
+
+        <section>
+            <img src="catatumbo.jpg">
+            <h3>Relámpago del Catatumbo</h3>
+        </section>
+
+        <section>
+            <img src="roraima.jpg" id = "margenderecho">
+            <h3>Roraima</h3>
+        </section>
+
+        <section>
+            <img src="pico bolivar.jpg" id = "margenderecho">
+            <h3>Pico Bolívar</h3>
+        </section>
+
+        <section>
+            <img src="paramomerideño.jpg">
+            <h3>Páramo merideño</h3>
+        </section>
+        
+        <form action="">
+            <fieldset>
+                <legend>Contáctanos</legend>
+                <label for="name">Nombre y Apellido:</label>
+                <input type="text" id="name"><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="number" id="telefono"><br>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email"><br>
+                <label for="destino">¿Adónde quieres ir?</label>
+                    <select name="" id="destino">
+                        <option value="Los Roques">Los Roques</option>
+                        <option value="Canaima/Salto Ángel">Canaima/Salto Ángel</option>
+                        <option value="Relámpago del Catatumbo">Relámpago del Catatumbo</option>
+                        <option value="Roraima">Roraima</option>
+                        <option value="Pico Bolívar">Pico Bolívar</option>
+                        <option value="Páramo merideño">Páramo merideño</option>
+                    </select>
+
+                <button type= "button" onclick= "informacionUsuario()" value="presionado" id="boton">Enviar</button>
+                <button type= "button" onclick= "filtrarR()" value="presionado" id="boton2">Nombres con R</button>
+            </fieldset>
+        </form>
+    
+    </body>
+</html>

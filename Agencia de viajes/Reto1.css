@@ -1,0 +1,57 @@
+section
+{
+    text-align: center;
+    display: inline-block;
+    border: white 8px ridge;
+    width: 100%;
+    background-color: rgb(238, 221, 198);
+    margin-right: 20px;
+    margin-left: 20px;
+   
+} 
+
+form
+{
+   
+    display: inline-block;
+    width: 30%;
+   
+    
+
+} 
+
+label
+{
+    
+    width: 150px;
+    display: inline-block;
+    
+
+} 
+
+
+img
+{
+    height: 200px;
+    width: 30%;
+    
+
+} 
+
+
+
+ 
+#titulo
+{
+    text-align:center;
+    font-family: "Segoe UI";
+
+
+}
+
+
+
+
+
+
+
